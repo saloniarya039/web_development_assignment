@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Course Enrollment</title>
+</head>
+
+<body>
+
+    <h1>Online Course Enrollment & Student Registration</h1>
+
+    <p>
+        Welcome to our online learning platform. Fill in the details below
+        to register your account and enroll in a technical course.
+    </p>
+
+    <img src="https://tse3.mm.bing.net/th/id/OIP.j2g63LbaMUJbe9YOMC7orgAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" 
+    alt="Online Learning" 
+    width="300">
+
+    <p>
+        To know more about our courses,
+        <a href="https://aws.amazon.com/certification/certified-ai-practitioner/?trk=9d37aadb-dd50-42c9-ac6e-3a0651e06752&sc_channel=ps&ef_id=f3955bb01dd21fca4562312844833138:G:s&msads_camp=487968801&msads_ag=1147892022780138&msads_ad=71743421382212&msads_kw=artificial%20intelligence%20training&msads_matchtype=e&msads_network=o&msads_device=c&msads_geo={LocationId}&msclkid=f3955bb01dd21fca4562312844833138" 
+        target="_blank"
+         rel="noopener noreferrer">click here</a>.
+    </p>
+
+    <hr>
+
+    <form>
+
+        <h2>Account Details</h2>
+
+        <label for="name">Student Name:</label>
+        <input type="text" id="name" name="student_name"
+               placeholder="Enter your full name"
+               minlength="3" maxlength="50" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"
+               placeholder="example@gmail.com" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"
+               minlength="6" maxlength="15" required>
+        <br><br>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile"
+               placeholder="10 digit mobile number"
+               pattern="[0-9]{10}" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="date_of_birth"
+               min="1990-01-01" max="2010-12-31" required>
+
+        <br><br>
+
+        <h2>Course Details</h2>
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+            <option value="">Choose a course</option>
+            <option value="python">Python Programming</option>
+            <option value="java">Java Programming</option>
+            <option value="web">Web Development</option>
+            <option value="dsa">Data Structures & Algorithms</option>
+            <option value="database">Database Management</option>
+            <option value="ai_ml">Artificial Intelligence & ML</option>
+        </select>
+
+        <br><br>
+
+        <label for="batch">Select Batch:</label>
+        <select id="batch" name="batch" required>
+            <option value="">Choose batch</option>
+            <option value="morning">Morning - 9 AM</option>
+            <option value="afternoon">Afternoon - 2 PM</option>
+            <option value="evening">Evening - 6 PM</option>
+            <option value="weekend">Weekend Batch</option>
+        </select>
+
+        <br><br>
+
+        <p>Learning Mode:</p>
+
+        <input type="radio" id="online" name="learning_mode"
+               value="online" required>
+        <label for="online">Online</label>
+
+        <input type="radio" id="offline" name="learning_mode"
+               value="offline">
+        <label for="offline">Offline</label>
+
+        <input type="radio" id="hybrid" name="learning_mode"
+               value="hybrid">
+        <label for="hybrid">Hybrid</label>
+
+        <br><br>
+
+        <p>Areas of Interest:</p>
+
+        <input type="checkbox" id="python_interest"
+               name="interest" value="python">
+        <label for="python_interest">Python</label>
+
+        <input type="checkbox" id="java_interest"
+               name="interest" value="java">
+        <label for="java_interest">Java</label>
+
+        <input type="checkbox" id="web_interest"
+               name="interest" value="web_development">
+        <label for="web_interest">Web Development</label>
+
+        <input type="checkbox" id="dsa_interest"
+               name="interest" value="data_structures">
+        <label for="dsa_interest">Data Structures</label>
+
+        <input type="checkbox" id="database_interest"
+               name="interest" value="database">
+        <label for="database_interest">Database</label>
+
+        <br><br>
+
+        <h2>Education Details</h2>
+
+        <label for="education">Education Level:</label>
+        <select id="education" name="education_level" required>
+            <option value="">Select education level</option>
+            <option value="12th">12th</option>
+            <option value="diploma">Diploma</option>
+            <option value="undergraduate">Undergraduate</option>
+            <option value="postgraduate">Postgraduate</option>
+        </select>
+
+        <br><br>
+
+        <label for="college">College / Institution:</label>
+        <input type="text" id="college" name="college"
+               placeholder="Enter college name"
+               maxlength="100" required>
+
+        <br><br>
+
+        <label for="semester">Current Semester / Year:</label>
+        <input type="text" id="semester" name="semester"
+               placeholder="Example: 2nd Semester" maxlength="30" required>
+
+        <br><br>
+
+        <label for="experience">Programming Experience (Years):</label>
+        <input type="number" id="experience" name="programming_experience"
+               min="0" max="10" step="0.5" value="0">
+
+        <br><br>
+
+        <label for="github">GitHub / Portfolio URL:</label>
+        <input type="url" id="github" name="portfolio"
+               placeholder="https://github.com/username">
+
+        <br><br>
+
+        <h2>Learning Goals</h2>
+
+        <label for="goals">What do you want to learn?</label><br>
+        <textarea id="goals" name="learning_goals"
+                  rows="5" cols="45"
+                  minlength="10" maxlength="300"
+                  placeholder="Write your learning goals here..."
+                  required></textarea>
+
+        <br><br>
+
+        <input type="checkbox" id="confirm"
+               name="confirmation" value="confirmed" required>
+        <label for="confirm">
+            I confirm that the information provided by me is correct.
+        </label>
+
+        <br><br>
+
+        <input type="submit" value="Enroll Now">
+        <input type="reset" value="Reset Form">
+
+    </form>
+
+</body>
+</html>
+
