@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Periodic Table</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 25px;
+            font-size: 32px;
+        }
+
+        .table {
+            width: 1150px;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 18px;
+        }
+
+        .box {
+            width: 52px;
+            height: 52px;
+            border: 2px solid black;
+            box-sizing: border-box;
+        }
+
+        .green {
+            background-color: #8ca52b;
+        }
+
+        .red {
+            background-color: #ff6666;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .orange {
+            background-color: #ff6600;
+        }
+
+        .purple {
+            background-color: #b0008a;
+        }
+
+        .pink {
+            background-color: #ff0060;
+        }
+
+        .yellow {
+            background-color: #ffc800;
+        }
+
+        .grey {
+            background-color: #6d5b60;
+        }
+
+        .empty {
+            background-color: white;
+            border: none;
+        }
+
+        .number {
+            text-align: right;
+            padding: 5px;
+            font-size: 14px;
+        }
+
+        .silicon {
+            width: 165px;
+            height: 165px;
+            background-color: #8ca52b;
+            border: 2px solid black;
+            padding: 10px;
+            text-align: left;
+            box-sizing: border-box;
+            margin-left: 105px;
+        }
+
+        .silicon .si {
+            font-size: 60px;
+            margin-top: 35px;
+        }
+
+        .silicon .name {
+            font-size: 16px;
+        }
+
+        .bottom {
+            width: 580px;
+            margin: 65px auto 0;
+        }
+
+        .lanth,
+        .act {
+            display: flex;
+        }
+
+        .small {
+            width: 42px;
+            height: 42px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            background-color: #4e632d;
+        }
+
+        .act .small {
+            background-color: #9ac45c;
+        }
+
+        .label {
+            text-align: left;
+            padding: 7px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>THE PERIODIC TABLE OF ELEMENTS</h1>
+
+    <div class="table">
+        <div class="row">
+              <div class="silicon">
+                <div class="number">14</div>
+                <div class="si">Si</div>
+                <div class="name">Silicon</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box" style="background-color: brown; color: white;">
+                <div class="H"  style="font-size: 45px;">H</div>
+            </div>
+            <div style="margin-left: 1035px;" class="box yellow"></div>
+        </div>
+
+        <div class="row">
+            <div class="box green"></div>
+
+            <div class="box red">
+                <div class="number">4</div>
+            </div>
+
+            <div style="margin-left: 650px;" class="box purple"></div>
+            <div class="box green"></div>
+            <div class="box green"></div>
+            <div class="box green"></div>
+            <div class="box pink"></div>
+            <div class="box yellow"></div>
+        </div>
+
+        <div class="row">
+            <div class="box green"></div>
+
+            <div class="box red">
+                <div class="number">12</div>
+            </div>
+
+            <div style="margin-left: 650px;" class="box orange"></div>
+            <div class="box purple"></div>
+            <div class="box green"></div>
+            <div class="box green"></div>
+            <div class="box pink"></div>
+            <div class="box yellow"></div>
+        </div>
+
+        <div class="row">
+            <div class="box green"></div>
+
+            <div class="box red">
+                <div class="number">20</div>
+            </div>
+
+            <div style="margin-left: 75px;" class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box orange"></div>
+            <div class="box purple"></div>
+            <div class="box purple"></div>
+            <div class="box green"></div>
+            <div class="box pink"></div>
+            <div class="box yellow"></div>
+        </div>
+
+        <div class="row">
+            <div class="box green"></div>
+
+            <div class="box red">
+                <div class="number">38</div>
+            </div>
+
+            <div style="margin-left: 75px;" class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box orange"></div>
+            <div class="box orange"></div>
+            <div class="box purple"></div>
+            <div class="box purple"></div>
+            <div class="box pink"></div>
+            <div class="box yellow"></div>
+        </div>
+
+        <div class="row">
+            <div class="box green"></div>
+
+            <div class="box red">
+                <div class="number">56</div>
+            </div>
+
+            <div class="box empty"></div>
+
+            <div style="margin-left: 10px;" class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box orange"></div>
+            <div class="box orange"></div>
+            <div class="box orange"></div>
+            <div class="box purple"></div>
+            <div class="box pink"></div>
+            <div class="box yellow"></div>
+        </div>
+
+        <div class="row">
+            <div class="box green"></div>
+
+            <div class="box red">
+                <div class="number">88</div>
+            </div>
+            
+            <div class="box empty"></div>
+
+            <div style="margin-left: 10px;" class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+            <div class="box blue"></div>
+
+            <div class="box grey"></div>
+            <div class="box grey"></div>
+            <div class="box grey"></div>
+            <div class="box grey"></div>
+            <div class="box grey"></div>
+            <div class="box grey"></div>
+        </div>
+
+    </div>
+
+    <div class="bottom">
+
+        <div class="lanth">
+            <div class="small label">La</div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+        </div>
+
+        <div class="act">
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small label">Am</div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+            <div class="small label">No</div>
+        </div>
+
+    </div>
+
+</body>
+</html>

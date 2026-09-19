@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Meet Our Mentors</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #222;
+        }
+
+        .mentors-section {
+            width: 100%;
+            padding: 50px 30px;
+            text-align: center;
+        }
+
+        .mentors-section h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-size: 17px;
+            color: #555;
+            margin-bottom: 40px;
+        }
+
+        .mentor-container {
+            display: grid;
+
+            grid-template-columns: repeat(4, 1fr);
+
+            gap: 25px;
+
+            max-width: 1550px;
+            margin: auto;
+        }
+
+        .mentor-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+
+            padding: 15px;
+
+            min-height: 320px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .mentor-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .mentor-card img {
+            width: 200px;
+            height: 190px;
+
+            object-fit: cover;
+
+            border-radius: 5px;
+
+            margin-bottom: 15px;
+        }
+
+        /* Mentor Name */
+        .mentor-card h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        
+        .company-logo {
+            width: 70px !important;
+            height: 40px !important;
+
+            object-fit: contain !important;
+
+            margin-top: auto;
+        }
+
+        @media (max-width: 1200px) {
+            .mentor-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 700px) {
+            .mentor-container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .mentor-card img {
+                width: 220px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="mentors-section">
+
+        <h1>Meet Our Mentors</h1>
+
+        <p class="description">
+            Being Developers themselves, the Curriculum Team is an experienced
+            group of instructors teaching.
+        </p>
+
+        <div class="mentor-container">
+
+            <div class="mentor-card">
+
+                <img src="https://img.freepik.com/premium-photo/portrait-influential-indian-business-mentor-office-smiling-confidently_1168123-443.jpg" alt="Kanish Aman">
+
+                <h2>Kanish Aman</h2>
+
+                <img class="company-logo"
+                     src="https://helios-i.mashable.com/imagery/articles/0055GZSwYzr5qN5hzNhlEMa/hero-image.fill.size_1248x702.v1786562702.jpg"
+                     alt="Facebook">
+
+            </div>
+
+            <div class="mentor-card">
+
+                <img src="https://t4.ftcdn.net/jpg/07/83/82/73/360_F_783827365_R5E4dgVFD5iR1voyeX1VcFuckE6SUEnm.jpg" alt="Nitesh Jain">
+
+                <h2>Nitesh Jain</h2>
+
+                <img class="company-logo"
+                     src="https://static.vecteezy.com/system/resources/previews/018/779/928/original/3d-illustration-of-amazon-logo-free-png.png"
+                     alt="Amazon">
+
+            </div>
+
+            <div class="mentor-card">
+
+                <img src="https://tse2.mm.bing.net/th/id/OIP.kWBumaAZ-iUvhlQuH8N-MQHaE7?r=0&w=626&h=417&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Vinit Shahdeo">
+
+                <h2>Vinit Shahdeo</h2>
+
+                <img class="company-logo"
+                     src="https://logos-world.net/wp-content/uploads/2025/02/Amazon-Prime-Logo.png"
+                     alt="Company">
+
+            </div>
+
+            <div class="mentor-card">
+
+                <img src="https://www.womenentrepreneursreview.com/entrepreneur_images/news_images/w4bkv570x390-1.jpg" alt="Amol Holani">
+
+                <h2>Amol Holani</h2>
+
+                <img class="company-logo"
+                     src="https://tse2.mm.bing.net/th/id/OIP.HP55nAQfHY4mlb4v9MxJKAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                     alt="Company">
+
+            </div>
+
+            <div class="mentor-card">
+
+                <img src="https://tse2.mm.bing.net/th/id/OIP.40KJJmp0eU2VLno2yc_BtgHaEZ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Yash Shukla">
+
+                <h2>Yash Shukla</h2>
+
+                <img class="company-logo"
+                     src="https://tse1.mm.bing.net/th/id/OIP.XtX8OdsrlU7HdXyzGS7jjAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                     alt="Microsoft">
+
+            </div>
+
+            <div class="mentor-card">
+
+                <img src="https://thenewsmen.co.in/public/upload/news/story_image_1663744711.jpg" alt="Yuvraj Jaiswal">
+
+                <h2>Kalyan Krishnamurthy</h2>
+                <img class="company-logo"
+                     src="https://img-cdn.publive.online/fit-in/1280x960/filters:format(webp)/afaqs/media/media_files/2025/09/15/flipkart-2025-09-15-15-48-18.png"
+                     alt="Flipkart">
+
+            </div>
+
+            <div class="mentor-card">
+
+                <img src="https://tse2.mm.bing.net/th/id/OIP.7xqUolLDIGCqRkYtaJ0thgHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Mohit Rai">
+
+                <h2>Mohit Rai</h2>
+
+                <img class="company-logo"
+                     src="https://helios-i.mashable.com/imagery/articles/0055GZSwYzr5qN5hzNhlEMa/hero-image.fill.size_1200x675.v1786562702.jpg"
+                     alt="Facebook">
+
+            </div>
+
+            <div class="mentor-card">
+
+                <img src="https://th.bing.com/th/id/OIP.20fVgrra6-X9Q5ztJQvgTwHaE7?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Jai Sethia">
+
+                <h2>Jai Sethia</h2>
+
+                <img class="company-logo"
+                     src="https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2022/09/931/523/Amazon-1.jpg?ve=1&tl=1"
+                     alt="Amazon">
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>

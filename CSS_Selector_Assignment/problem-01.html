@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Now Showing</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 25px;
+        }
+
+        #movie-list {
+            width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .movie-card {
+            border: 1px solid #d45454;
+            padding: 0px;
+            display: flex;
+            gap: 20px;
+            background-color: #fff;
+        }
+
+        .movie-card img {
+            width: 150px;
+            height: 210px;
+            object-fit: cover;
+        }
+
+        .movie-info {
+            padding-top: 10px;
+        }
+
+        .movie-info h2 {
+            margin-bottom: 15px;
+        }
+
+        .release {
+            color: #161414;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            padding: 10px 18px;
+            background-color: rgb(219, 113, 113);
+            border: 1px solid #d56a6a;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        h2, .release {
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Now Showing</h1>
+
+    <div id="movie-list">
+
+        <div class="movie-card">
+            <img src="https://insighteditions.com/cdn/shop/products/78397-105977-cover_684x.jpg?v=1657653821" alt="ET Movie">
+
+            <div class="movie-info">
+                <h2>ET (2022)</h2>
+                <p class="release">Releasing on 11 Mar, 2022</p>
+                <button class="btn">Book Tickets</button>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <img src="https://st1.bollywoodlife.com/wp-content/uploads/2022/03/Jhund-Movie-Review.jpg?impolicy=Medium_Widthonly&w=1280&h=900" alt="Jhund Movie">
+
+            <div class="movie-info">
+                <h2>Jhund</h2>
+                <p class="release">Releasing on 4 Mar, 2022</p>
+                <button class="btn">Book Tickets</button>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <img src="https://resize.indiatvnews.com/en/centered/newbucket/1200_675/2022/03/alia-bhatt-3-1648197197.jpg" alt="Gangubai Kathiawadi">
+
+            <div class="movie-info">
+                <h2>Gangubai Kathiawadi</h2>
+                <p class="release">Releasing on 25 Feb, 2022</p>
+                <button class="btn">Book Tickets</button>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <img src="https://m.media-amazon.com/images/M/MV5BNGE3MmVlYmItZjA5Ny00YzNhLTg0ZGMtNWZhMmUwNjljN2IwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Radhe Shyam">
+
+            <div class="movie-info">
+                <h2>Radhe Shyam</h2>
+                <p class="release">Releasing on 11 Mar, 2022</p>
+                <button class="btn">Book Tickets</button>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <img src="https://m.media-amazon.com/images/M/MV5BNTFmN2M0MGMtMTI5Ny00NzRlLWFlZGYtZDM0N2VmOTUwYTdmXkEyXkFqcGc@._V1_.jpg" alt="Uncharted Movie">
+
+            <div class="movie-info">
+                <h2>Uncharted</h2>
+                <p class="release">Releasing on 18 Feb, 2022</p>
+                <button class="btn">Book Tickets</button>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.xoe9wFAOJ5-i6dAeOo60sgHaMd?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="The Batman">
+
+            <div class="movie-info">
+                <h2>The Batman</h2>
+                <p class="release">Releasing on 4 Mar, 2022</p>
+                <button class="btn">Book Tickets</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
